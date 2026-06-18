@@ -1,0 +1,18 @@
+```python
+import math
+
+linha1 = input().split()
+x1 = float(linha1[0])
+y1 = float(linha1[1])
+
+linha2 = input().split()
+x2 = float(linha2[0])
+y2 = float(linha2[1])
+
+diferenca_x = x2 - x1
+diferenca_y = y2 - y1
+
+distancia = math.sqrt(diferenca_x**2 + diferenca_y**2)
+
+print(f"{distancia:.4f}")
+```
